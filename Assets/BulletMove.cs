@@ -12,6 +12,9 @@ public class BulletMove : MonoBehaviour {
 
 
 	void FixedUpdate () {
+        //git Test 무시하셈
+        int a = 0;
+
         if (!impacted)
         {
             rb.velocity = forceVec;
